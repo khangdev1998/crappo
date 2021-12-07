@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: $primary-font;
+}
+
+.container {
+  max-width: $wrapper + 30;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 32.3px;
+  border-radius: 32px;
+  @include bgc($primary-color);
+  color: $light-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+}
